@@ -2,25 +2,13 @@ spring:
   profiles:
     active: dev
     
-<<<<<<< HEAD
 ---
-server:
-  port: 8201
-=======
-
->>>>>>> 4f6e2779f29433c327adb10c2537ec7602ba4555
 spring:
   profiles: dev
   application:
     name: springcloud-config-dev
     
-<<<<<<< HEAD
 ---
-server:
-  port: 8202
-=======
-
->>>>>>> 4f6e2779f29433c327adb10c2537ec7602ba4555
 spring:
   profiles: test
   application:
