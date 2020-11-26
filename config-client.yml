@@ -24,7 +24,8 @@ server:
   port: 8202      
 #spring配置
 server:
-  port: 8202pring:
+  port: 8202
+spring:
   provider: test
   application:
     name: springcloud-provider-dept  # 3个服务名称相同 是前提条件
