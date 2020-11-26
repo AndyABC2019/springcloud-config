@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: dev
+
+
+---
+server:
+  port: 8201
+#spring配置
+spring:
+  provider: dev
+  application:
+    name: springcloud-provider-dept  # 3个服务名称相同 是前提条件
+ 
+# Eureka的配置  服务注册到哪里
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
+
+
+---
+server:
+  port: 8202      
+#spring配置
+server:
+  port: 8202pring:
+  provider: test
+  application:
+    name: springcloud-provider-dept  # 3个服务名称相同 是前提条件
+ 
+# Eureka的配置  服务注册到哪里
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/
